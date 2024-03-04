@@ -13,7 +13,7 @@ import Dining from "./Pages/Dining.jsx";
 import Products from "./Pages/Products.jsx";
 import Cin from "./Pages/Cin.jsx";
 import Spen from "./Pages/Spen.jsx";
-import Vere from "./Pages/Vere.Jsx";
+import Vere from "./Pages/Vere.jsx";
 import Bin from "./Pages/Bin.jsx";
 import Unix from "./Pages/Unix.jsx";
 import Sol from "./Pages/Sol.jsx";
