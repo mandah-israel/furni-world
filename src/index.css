@@ -1,0 +1,1467 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+/*Header*/
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:30px 40px;
+    background-color:whitesmoke;
+    position:fixed;
+    top:0;
+    height:13vh;
+    width:100%;
+    z-index:9;
+}
+
+#fish .plus{
+    display:none;
+}
+.show{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+ }
+ .hide{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+ }
+#bar{
+    display:none;
+}
+.header .insit{
+    display:none;
+}
+#times{
+    display:none;
+}
+.header #nav{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.header img{
+    height:10vh;
+    object-fit:cover;
+}
+#nav li{
+  list-style-type:none;
+}
+ li a{
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
+    padding:20px;
+}
+
+/* Home */
+.spy{
+    background-image:url(Images/bin.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:70vh;
+}
+.spy h5{
+    font-size:18px;
+}
+.spy h2{
+    font-size:40px;
+}
+.spy p{
+    font-size:13px;
+}
+.spy {
+    display:flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    flex-direction:column;
+    padding:90px;
+    line-height:45px;
+    color:white;
+    font-weight:bolder;
+}
+.come h3{
+    color:rgb(255, 0, 0);
+}
+.come p{
+    color:rgba(0, 0, 0, 0.938);
+}
+.come{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin:20px;
+    line-height:40px;
+}
+.kim{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.kim a{
+    margin:0 80px;
+    color: black;
+}
+.span h3{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    line-height:80px;
+    font-size:25px;
+}
+.ma-gin{
+    margin:20px 40px;
+}
+.pa-d{
+    padding:0 50px;
+}
+.pa-x{
+    padding:90px 50px;
+}
+#arrival{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+}
+#arrival .div{
+    height:30vh;
+    width:250px;
+    border:none;
+    margin:30px;
+}
+#arrival .div{
+    line-height:20px;
+}
+#arrival h5{
+    font-size:14px;
+    font-weight:bold;
+    color: black;
+}
+#arrival h6{
+    font-size:13px;
+    color: rgb(255, 0, 0);
+    font-weight:bolder;
+}
+#arrival img{
+    width:100%;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.fin{
+    display:flex; 
+    justify-content:center;
+}
+ .sell{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    line-height:45px;
+    color:black;
+    margin:30px;
+}
+.sell p{
+    color:rgba(0, 0, 0, 0.932);
+}
+.sell h4 span{
+    color:rgb(255, 0, 0);
+}
+.sell h4{
+    font-size:20px;
+}
+.fin img{
+ width: 38%;
+ object-fit:cover;
+ height:40vh;
+ margin-top:40px;
+ border-radius:10px;
+}
+.sell a{
+    text-decoration:none;
+    color:white;
+}
+.sell button{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding:15px 30px;
+    border-radius:10px;
+    border:none;
+    color: white;
+    background-color:rgb(255, 0, 0);
+    margin-top:25px;
+}
+.span p{
+    color:rgba(0, 0, 0, 0.986);
+    line-height:30px;
+}
+.span .spoil{
+    margin-top:40px;
+    color:rgba(0, 0, 0, 0.986);
+}
+.span .tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zim h4{
+    margin:10px;
+    font-size:20px;
+}
+.zim{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.spix{
+    padding:70px 0;
+}
+#spin button{
+    height:6vh;
+    width:100px;
+    text-align:center;
+    font-size:15px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    border:none;
+    background-color:rgb(255, 0, 0);
+    color:white;
+    cursor:pointer;
+}
+#spin input{
+    height:6vh;
+    width:200px;
+    font-size:15px;
+    padding:0 5px;
+    border:1px solid grey;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    margin:20px 0;
+}
+#spin h4{
+    font-size: 20px;
+}
+#spin{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin-top:35px;
+}
+/* footer*/
+.footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    margin-top:30px;
+}
+.media a{
+    margin:15px;
+}
+.media h4{
+    font-size: 20px;
+    line-height:40px;
+}
+.media a{
+color: grey;
+}
+.media .you{
+    color:rgba(0, 128, 0, 0.616);
+}
+.media .face{
+    color:rgba(0, 0, 255, 0.568);
+}
+.media .twi{
+    color:rgba(135, 207, 235, 0.959);
+}
+.media .ins{
+    color:rgba(0, 0, 255, 0.493);
+}
+.media .what{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    align-items:center;
+    color:rgba(0, 128, 0, 0.616);
+}
+.vere{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin:30px 0;
+}
+.vere .fin{
+    margin:0 100px;
+}
+.vere .col{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.col h5{
+    font-size:14px;
+}
+.vere .cov{
+    margin-top:20px;
+}
+.col a{
+    text-decoration:none;
+    line-height: 100px;
+}
+.col a {
+    line-height:35px;
+    font-size:15px;
+    color:black;
+}
+.gin{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.gin span{
+    color:black;
+}
+.gin svg{
+    color:black;
+}
+.footer a{
+    line-height:70px;
+}
+/* Bed*/
+#dim{
+    padding-top:100px;
+}
+.pet{
+    margin:2px 0;
+    position:relative;
+}
+.pet button{
+    padding:5px 25px;
+    color:white;
+    font-weight:bold;
+    border-radius:5px;
+    border:1px solid rgba(0, 128, 0, 0.616) ;
+    background-color:rgba(0, 128, 0, 0.616);
+    font-variant:small-caps;
+}
+.pet a{
+    position: absolute;
+    color:white;
+    top:3px;
+    left:5px;
+}
+
+/*product*/
+.spere{
+    background-image:url(Images/knife.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    line-height:10px;
+    width:100%;
+    height:70vh;
+}
+/* Cin*/
+.sell h6{
+    color:rgb(255, 0, 0);
+    font-size:13px;
+    font-weight:bolder;
+}
+.fin .img{
+    height:45vh;
+}
+.sew{
+    line-height:30px;
+}
+.sew .vin{
+    cursor:pointer;
+    padding:15px 90px;
+    color:white;
+}
+/* About*/
+.bix{
+    background-image:url(Images/dev.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:70vh;
+}
+
+.bix h3{
+    color:white;
+    line-height:40px;
+    font-size:25px;
+}
+
+.vide{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.vide img{
+    margin:70px 0;
+    width:50%;
+    margin:auto;
+    height:50vh;
+    min-width:500px;
+    object-fit:cover;
+    border-radius:7px;
+}
+/*Login*/
+.span #form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+#form label{
+    font-size:14px;
+    font-weight:bold;
+    line-height:45px;
+    color:black;
+    margin-right:108px;
+    
+}
+#form .pass{
+    margin-right:220px;
+}
+#form input{
+    height:6vh;
+    min-width:295px;
+    text-align: start;
+    padding:0 10px;
+    border-radius:7px;
+    border:1px solid gray;
+}
+ #form input:hover{
+    border:1px solid rgba(128, 128, 128, 0.308);
+    transition:0.5s ease;
+}
+#form button{
+ margin-top:25px;
+ height:6vh;
+ min-width:295px;
+ border-radius:7px;
+ border:1px solid rgba(128, 128, 128, 0.308);
+ background-color:rgb(255, 0, 0);
+ cursor: pointer;
+}
+#form button a{
+    text-decoration:none;
+    color:white;
+}
+.form{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:50px;
+}
+.spec{
+    display:flex;
+}
+.spec span{
+    margin:0 8px;
+    font-size:14px;
+}
+.form a{
+    font-size:14px;
+    text-decoration:none;
+    color:rgb(255, 0, 0);
+}
+.orange{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 14px;
+    font-variant:small-caps;
+    font-weight:bold;
+}
+.orange hr{
+    min-width:500px;
+    margin:0 20px;
+    
+}
+
+.reg{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.reg button{
+    margin-top:25px;
+    padding:15px 30px;
+    border-radius:7px;
+    border:1px solid rgba(128, 128, 128, 0.308);
+    background-color:rgb(255, 0, 0);
+    cursor: pointer; 
+}
+.reg button a{
+    text-decoration:none;
+    font-variant: small-caps;
+    color:white;
+}
+.ran{
+    position:relative;
+}
+.ran .vut{
+    position:absolute;
+    top:10px;
+    right:8px;
+    cursor: pointer;
+    color:rgba(128, 128, 128, 0.76);
+}
+/*register*/
+.acct{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.acct h3{
+    padding:0 10px;
+}
+.acct a{
+    padding:0 10px;
+    color:white;
+    font-size:25px;
+    text-decoration: none;
+}
+#form .label{
+    margin-right:190px;
+}
+#form .first  {
+    margin-right:210px;
+}
+#form .last{
+    margin-right:215px;
+}
+#form .phone{
+    margin-right:245px;
+}
+
+
+@media(max-width:768px) {
+    /*header*/
+    .header{
+        padding:30px 10px;
+    }
+    .header #bar{
+        padding:30px 10px;
+    }
+    .header img{
+        height:8vh;
+    }
+    .header #nav{
+        display: flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        align-items:flex-start;
+        background-color:whitesmoke;
+        line-height:40px;
+        padding:30px 10px;
+        height:65vh;
+        max-width:280px;
+        right:0;
+        position:fixed;
+        top:0;
+        transition: 0.5s ease;
+    }
+    #nav.closed{
+        overflow: hidden;
+        max-width:0;
+        transition: 0.5s ease;
+        padding:0;
+    }
+    .header .insit{
+        display:flex;
+    }
+    #bar{
+        display:flex;
+    }
+    #times{
+        display:flex;
+        position:absolute;
+        top:10px;
+        right:10px;
+        padding:5px;
+        border-radius:15px;
+        background-color:rgba(128, 128, 128, 0.048);
+    }
+    li a{
+        font-size:15px;
+    }
+    /*Home*/
+    .spy {
+        line-height:40px;
+    }
+    .spy h2{
+        font-size:30px;
+    }
+    .spy p{
+        font-size:16px;
+        
+    }
+    .come p{
+        font-size:15px;
+    }
+    .span p{
+        font-size:15px;
+    }
+    .span h3{
+        font-size:20px;
+        line-height:40px;
+    }
+    .come h2{
+        font-size:20px;
+    }
+    .fin{
+        display:flex; 
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+
+    .fin .img{
+        height:65vh;
+    }
+    .sew .vin{
+        padding:15px 40px;
+        font-size:15px;
+    }
+    #spin button{
+        font-size:15px;
+        height:8vh;
+        width:100px;
+    }
+    #spin input{
+        height:8vh;
+        width:210px;
+    }
+    .sell button{
+        padding:12px 20px;
+    }
+    .sell a{
+        font-size:15px;
+    }
+    .fin img{
+        width: 100%;
+        height:65vh;
+       }
+
+       .col h5{
+        font-size:15px;
+       }
+       .col a p{
+        font-size:13px;
+       }
+       .gin span{
+        font-size:15px;
+       }
+       .media h4{
+        font-size:20px;
+       }
+       #arrival .div{
+        margin:45px;
+    }
+    /*About*/
+    /*Login*/
+    .orange hr{
+        min-width:300px;
+        margin:0 20px;   
+    }
+    #form label{
+        margin-right:100px; 
+    }
+    #form .pass{
+        margin-right:220px;
+    }
+    .ran .vut{
+        top:7px
+    }
+    .acct a{
+        font-size:20px;
+    }
+    .gin svg{
+        width:18px;
+     }
+     .vere{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        transition-duration:0.3s;
+    }
+    .vere .col{
+        display:flex;
+        align-items:flex-start;
+        justify-content:flex-start;
+        background-color:white;
+    }
+          /*Accordion*/
+#fish{
+    display:flex;
+    background-color:rgb(255, 0, 0);
+    width:330px;
+    height:5vh;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    cursor:pointer;
+    margin:5px; 
+    color:white;
+}
+#fish .plus{
+   display:flex;
+   color:white;
+   font-weight:bolder;
+    }
+.show{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction:column;
+    border-bottom:1px solid whitesmoke;
+    max-height:29vh;
+    width:330px;
+    background-color:white;
+    padding:6px;
+    cursor: pointer;
+    transition:0.5s ease !important;
+    }
+ .open{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction:column;
+    border-bottom:1px solid whitesmoke;
+    max-height:29vh;
+    width:330px;
+    background-color:white;
+    padding:6px;
+    cursor: pointer;
+    transition:0.5s ease !important;
+    }
+ .slide{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction:column;
+    border-bottom:1px solid whitesmoke;
+    max-height:29vh;
+    width:330px;
+    background-color:white;
+    padding:6px;
+    cursor: pointer;
+    transition:0.5s ease !important;
+    }
+    .short{
+        overflow:hidden;
+        max-height:0;
+        transition:0.5s ease !important;
+    }
+    .cover{
+        overflow:hidden;
+        max-height:0;
+        transition:0.5s ease !important;
+    }
+    .hide{
+        overflow:hidden;
+        max-height:0;
+        transition:0.5s ease !important;
+    }
+}
+     @media(max-width:540px){
+        .ma-gin{
+            margin:30px 20px;
+        }
+        .pa-d{
+            padding:0 2px;
+        }
+        .pa-x{
+            padding:30px 20px;
+        }
+        .header #nav{
+            height:58vh;
+            line-height:60px;
+        }
+        .header{
+         height:8vh;
+        }
+        #arrival .div{
+         margin:116px;
+         height:20vh;
+         min-width:460px;
+     }
+    .span h3{
+        margin-top:80px;
+    }
+    .span .tag{
+        margin:20px 20px;
+    }
+    #spin{
+        margin-top:150px;
+    }
+    #spin input{
+        height:6vh;
+        width:300px;
+        padding:0 7px;
+    }
+    #spin button{
+       height:6vh;
+    }
+    #dim{
+        padding-top:10px;
+    }
+    /*input*/
+    .spec{
+        display:flex;
+        margin-right:240px;
+    }
+   #form input{
+    min-width:500px;
+   }
+   #form button{
+   min-width:500px;
+  }
+  #form label{
+    margin-right:306px; 
+  }
+  #form .label{
+    margin-right:390px;
+  }
+  #form .pass{
+    margin-right:424px;
+  }
+#form .first  {
+    margin-right:412px;
+}
+#form .last{
+    margin-right:420px;
+}
+#form .phone{
+    margin-right:440px;
+}
+  .orange hr{
+    min-width:210px;
+    margin:0 20px;   
+  }
+  .ran .vut{
+    top:12px
+}
+ /*Register*/
+ .acct a{
+    font-size:18px;
+    margin-top:80px;
+}
+.acct .pi{
+    margin-top:80px;
+}
+    /*footer*/
+    }
+    
+@media(max-width:430px){
+    .header{
+        height:7vh;
+    } 
+    .header #nav{
+        height:40vh;
+        line-height:50px;
+    }
+    .header img{
+        height:6vh;
+    }
+    #arrival img{
+        height:25vh;
+    }
+    #arrival .div{
+        margin:68px;
+        min-width:380px;
+    }
+    .span h3{
+        font-size:18px;
+    }
+    .come h2{
+        font-size:18px;
+    }
+    .sell h4{
+        font-size:18px;
+    }
+    .zim h4{
+        font-size:18px;
+    }
+    .media h4{
+        font-size:18px;
+    }
+    #spin h4{
+        font-size:18px;
+       }
+       #spin input{
+        height:6vh;
+        width:220px;
+        padding:0 7px;
+    }
+    #spin button{
+         height:6vh
+       }
+       .reg button a{
+        font-size:15px;
+       }
+       #form button a{
+        font-size:15px;
+       }
+    .ma-gin{
+        margin:50px 5px;
+    }
+    .pa-d{
+        padding:0 5px;
+    }
+    .vere{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .gin svg{
+        width:18px;
+    }
+    .sew .vin{
+        font-size:15px;
+    }
+    .spy h2{
+        font-size:25px;
+        line-height:40px;
+        font-weight:bolder;
+    }
+        /*About*/
+        .vide img{
+            height:30vh;
+            min-width:400px;
+            border-radius:7px;
+        }
+            /*Login*/
+    .orange hr{
+        min-width:150px;
+        margin:0 20px;   
+    }
+    .spec{
+        display:flex;
+        margin-right:85px;
+    }
+    #form label{
+        font-size:15px;
+    }
+    .ran .vut{
+        top:20px
+    }
+    #form input{
+        min-width:360px;
+    }
+    #form button{
+     min-width:360px;
+    }
+    #form label{
+        margin-right:152px; 
+    }
+    #form .pass{
+        margin-right:280px;
+    }
+
+   #form .label{
+    margin-right:250px;
+    }
+   #form .first  {
+    margin-right:273px;
+   }
+  #form .last{
+    margin-right:279px;
+  }
+    #form .phone{
+    margin-right:305px;
+   }
+
+    /*Register*/
+    .acct a{
+        font-size:18px;
+        margin-top:80px;
+    }
+    .acct .pi{
+        margin-top:80px;
+    }
+    /*Accordion*/
+    #fish{
+        width:13.5rem;
+        margin:2px;
+    }
+    .show{
+        width:13.5rem;
+    }
+    .open{
+        width:13.5rem;
+      }
+      .slide{
+        width:13.5rem;
+      }
+}
+
+@media(max-width:425px){
+    .spy {
+        padding:70px;
+    }
+    .header{
+        position:fixed;
+        top:0;
+        height:7vh;
+    }
+    .header #nav{
+        height:67vh;
+        line-height:50px;
+    }
+    .span h3{
+    font-size:18px;
+    line-height:40px;
+    margin-top:40px;
+    }
+    .come h2{
+       font-size:18px;
+    }
+    .span p{
+        font-size:15px;
+    }
+    .kim svg{
+        width:70px;
+    }
+    #arrival h5,h6{
+        font-size:15px;
+    }
+    .fin img{
+        width: 90%;
+        height:50vh;
+       }
+       .sell{
+        line-height:20px;
+       }
+       .sell h4{
+        font-size:18px;
+       }
+       .sell a{
+        font-size:14.5px;
+       }
+       .sell button{
+        border-radius:5px;
+       }
+       
+       .ma-gin{
+        margin:20px 5px;
+    }
+    .pa-d{
+        padding:0 5px;
+    }
+    .zim h4{
+        font-size:18px;
+    }
+    .zim svg{
+        width:70px;
+    }
+    #spin h4{
+        font-size:18px;
+    }
+    #spin input{
+        height:6vh;
+        width:230px;
+        padding:0 7px;
+    }
+    #spin button{
+       height:6vh;
+    }
+    .span .tag{
+        padding: 20px;
+    }
+    .media h4{
+        font-size:18px;
+    }
+    .vere{
+        display: flex;
+        flex-direction:column;
+        
+    }
+    .vere .col{
+        margin:20px 0;
+    }
+    .col h5{
+        font-size:15px;
+    }
+    .gin span{
+        font-size:15px;
+    }
+    .gin svg{
+        width:16px;
+    }
+    #dim{
+        padding-top:50px;
+    }
+    #arrival .div{
+        margin:68px;
+        height:20vh;
+        min-width:335px;
+
+    }
+    .sew .vin{
+        padding:15px 30px;
+        font-size:15px;
+    }
+    .spix{
+        padding:70px 0;
+    }
+    /*About*/
+    .vide img{
+        height:30vh;
+        min-width:350px;
+        border-radius:7px;
+    }
+        /*Login*/
+        .orange hr{
+            min-width:150px;
+            margin:0 20px;   
+        }
+        .spec{
+            display:flex;
+            margin-right:85px;
+        }
+        #form label{
+            font-size:15px;
+        }
+        #form button a{
+        font-size:15px;
+        }
+        .ran .vut{
+            top:6px
+        }
+        #form input{
+            min-width:360px;
+        }
+        #form button{
+         min-width:360px;
+        }
+        #form label{
+            margin-right:152px; 
+        }
+        #form .pass{
+            margin-right:278px;
+        }
+        #form .label{
+            margin-right:250px;
+          }
+        #form .first  {
+            margin-right:270px;
+        }
+        #form .last{
+            margin-right:274px;
+        }
+        #form .phone{
+            margin-right:301px;
+        }
+        /*Register*/
+        .acct a{
+            font-size:18px;
+            margin-top:40px;
+        }
+        .acct .pi{
+            margin-top: 40px;
+        }
+        .spoil{
+            color:white;
+        }
+        .reg button a{
+        font-size:15px;
+    }
+    /*Accordion*/
+    #fish{
+        width:400px;
+        margin:0;
+      }
+      .show{
+         width:400px;
+      }
+      .open{
+        width:400px;
+      }
+      .slide{
+        width:400px;
+      }
+           
+          }
+@media(max-width:414px){
+    .ran .vut{
+        top:18px;
+    }
+    .header #nav{
+        height:43vh;
+        line-height:50px;
+    }
+    /*Accordion*/
+    #fish{
+        width:400px
+      }
+      .show{
+         width:400px;
+         height:18vh;
+      }
+      .open{
+        width:400px;
+        height:18vh;
+      }
+      .slide{
+        width:400px;
+        height:18vh;
+      }
+}
+@media(max-width:390px){
+    .spy{
+        margin-top:50px;
+    }
+    #arrival .div{
+        margin:68px;
+        height:20vh;
+        min-width:320px;
+    }
+    #spin input{
+        height:6vh;
+        width:220px;
+        padding:0 7px;
+    }
+    #spin button{
+        height:6vh;
+        width:100px;
+    }
+    #arrival img{
+        height:25vh;
+    }
+    .ran .vut{
+        top:14px
+    }
+    /*Accordion*/
+    #fish{
+        width:300px;
+        }
+    .show{
+       width:300px;
+       height:20vh;
+   }
+   .open{
+    width:300px;
+    height:20vh;
+  }
+  .slide{
+    width:300px;
+    height:20vh;
+  }
+}
+@media(max-width:375px){
+    .spy h5{
+        font-size:16px;
+    }
+    .spy h2{
+        font-size:25px;
+        font-weight:bolder;
+    }
+    .spy{
+        line-height:30px;
+        margin-top:30px;
+    }
+    .come h2{
+        font-size:18px;
+    }
+    .ran .vut{
+        top:12px;
+    }
+    #form input{
+        min-width:340px;
+    }
+    #form button{
+     min-width:340px;
+    }
+    #form label{
+        margin-right:135px; 
+    }
+    #form .pass{
+        margin-right:260px;
+    }
+
+    #form .pass{
+        margin-right:258px;
+    }
+    #form .label{
+        margin-right:230px;
+      }
+    #form .first  {
+        margin-right:250px;
+    }
+    #form .last{
+        margin-right:254px;
+    }
+    #form .phone{
+        margin-right:285px;
+    }
+    .header #nav{
+        height:65vh;
+        line-height:50px;
+    }
+    #fish{
+        width:300px;
+        }
+    .show{
+       width:300px;
+       height:27vh;
+   }
+   .open{
+    width:300px;
+    height:27vh;
+  }
+  .slide{
+    width:300px;
+    height:27vh;
+  }
+
+}
+@media (max-width:320px){
+    #arrival .div{
+        margin:59px;
+        min-width:280px;
+    }   
+    .spy {
+        padding:40px;
+    }
+            /*About*/
+            .vide img{
+                height:30vh;
+                min-width:300px;
+                border-radius:7px;
+            }
+}
+@media(max-width:280px){
+    .spy{
+        padding:80px 30px;
+    }
+    .pa-d{
+        padding:0 2px;
+    }
+    .ma-gin{
+        margin:10px 4px;
+    }
+    .pa-x{
+        padding:10px 0;
+    }
+    #arrival .div{
+        margin:40px;
+        height:20vh;
+        min-width:230px;
+    }
+    .kim{
+        display:flex;
+        flex-direction:column;
+    }
+    #spin input{
+       width:160px;
+       font-size:12px;
+    }
+    #spin button{
+        font-size:12px;
+        width:85px;
+    }
+    #arrival img{
+        height:20vh;
+    }
+    .vide img{
+        height:30vh;
+        min-width:250px;
+        border-radius:7px;
+    }
+            /*Login*/
+            .orange hr{
+                min-width:100px;
+                margin:0 20px;   
+            }
+            .spec{
+                display:flex;
+                margin-right:8px;
+            }
+            #form input{
+                min-width:250px;
+                text-align: start;
+                border-radius:7px;
+                border:1px solid gray;
+            }
+            #form button a{
+                font-size:12px;
+            }
+            .reg button a{
+                font-size:12px;
+                font-weight:bold;
+            }
+            #form label{
+                margin-right:44px; 
+            }
+            #form .pass{
+                margin-right:170px;
+            }
+            #form button{
+                min-width:250px;
+
+               }    
+            .ran .vut{
+                top:11px
+            }
+            #form .label{
+                margin-right:140px;
+            }
+            #form .first  {
+                margin-right:162px;
+            }
+            #form .last{
+                margin-right:169px;
+            }
+            #form .phone{
+                margin-right:193px;
+            }
+            .sew .vin{
+                font-size:12px;
+            }
+            /*Accordion*/
+            #fish{
+                width:270px;
+            }
+            .show{
+                width:270px;
+                height:24vh;
+            }
+            .open{
+                width:270px;
+                height:24vh;
+              }
+              .slide{
+                width:270px;
+                height:24vh;
+              }
+             }
+
+

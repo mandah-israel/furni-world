@@ -1,0 +1,45 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import Home from './Pages/Home'
+import Bed from './Pages/Bed'
+import Chair from './Pages/Chair'
+import Dining from './Pages/Dining'
+import Products from './Pages/Products'
+import Cin from './Pages/Cin'
+import Spen from './Pages/Spen'
+import Vere from './Pages/Vere.Jsx'
+import Bin from './Pages/Bin'
+import Unix from './Pages/Unix'
+import Sol from './Pages/Sol'
+import Pere from './Pages/Pere'
+import Set from './Pages/Set'
+import Vin from './Pages/Vin'
+import Were from './Pages/Were'
+import Yep from './Pages/Yep'
+import Pine from './Pages/Pine'
+import Accessories from './Pages/Accessories'
+import About from './Pages/About'
+import Gine  from './Pages/Gine'
+import Fish from './Pages/Fish'
+import Vull from './Pages/Vull'
+import Vex from './Pages/Vex'
+import Plate from './Pages/Plate'
+import Rat from './Pages/Rat'
+import Boss from './Pages/Boss'
+import Light from './Pages/Light'
+import Dice from './Pages/Dice'
+import Horse from './Pages/Horse'
+import Vip from './Pages/Vip'
+import Bell from './Pages/Bell'
+import Login from './Pages/Login'
+import Register from './Pages/Register'
+function App() {
+
+  return (
+    <Home/>
+  )
+}
+
+export default App
