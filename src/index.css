@@ -792,7 +792,7 @@ color: grey;
 }
      @media(max-width:540px){
         .ma-gin{
-            margin:30px 20px;
+            margin:10px 20px;
         }
         .pa-d{
             padding:0 2px;
@@ -930,7 +930,7 @@ color: grey;
         font-size:15px;
        }
     .ma-gin{
-        margin:50px 5px;
+        margin:5px 5px;
     }
     .pa-d{
         padding:0 5px;
@@ -1071,7 +1071,7 @@ color: grey;
        }
        
        .ma-gin{
-        margin:20px 5px;
+        margin:2px 5px;
     }
     .pa-d{
         padding:0 5px;
