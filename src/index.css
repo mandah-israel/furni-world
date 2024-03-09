@@ -89,7 +89,7 @@
     font-weight:bolder;
 }
 .come h3{
-    color:rgb(255, 0, 0);
+    color:rgba(0, 0, 0, 0.938);
 }
 .come p{
     color:rgba(0, 0, 0, 0.938);
@@ -149,7 +149,7 @@
 }
 #arrival h6{
     font-size:13px;
-    color: rgb(255, 0, 0);
+    color: rgba(0, 0, 0, 0.938);
     font-weight:bolder;
 }
 #arrival img{
@@ -175,7 +175,7 @@
     color:rgba(0, 0, 0, 0.932);
 }
 .sell h4 span{
-    color:rgb(255, 0, 0);
+    color:rgba(0, 0, 0, 0.938);
 }
 .sell h4{
     font-size:20px;
@@ -199,7 +199,7 @@
     border-radius:10px;
     border:none;
     color: white;
-    background-color:rgb(255, 0, 0);
+    background-color:rgba(0, 0, 0, 0.938);
     margin-top:25px;
 }
 .span p{
@@ -236,7 +236,7 @@
     border-top-right-radius:5px;
     border-bottom-right-radius:5px;
     border:none;
-    background-color:rgb(255, 0, 0);
+    background-color:rgba(0, 0, 0, 0.938);
     color:white;
     cursor:pointer;
 }
@@ -380,7 +380,7 @@ color: grey;
 }
 /* Cin*/
 .sell h6{
-    color:rgb(255, 0, 0);
+    color:rgba(0, 0, 0, 0.938);
     font-size:13px;
     font-weight:bolder;
 }
@@ -463,7 +463,7 @@ color: grey;
  min-width:295px;
  border-radius:7px;
  border:1px solid rgba(128, 128, 128, 0.308);
- background-color:rgb(255, 0, 0);
+ background-color:rgba(0, 0, 0, 0.938);
  cursor: pointer;
 }
 #form button a{
@@ -486,7 +486,7 @@ color: grey;
 .form a{
     font-size:14px;
     text-decoration:none;
-    color:rgb(255, 0, 0);
+    color:rgba(128, 128, 128, 0.726);
 }
 .orange{
     display:flex;
@@ -513,7 +513,7 @@ color: grey;
     padding:15px 30px;
     border-radius:7px;
     border:1px solid rgba(128, 128, 128, 0.308);
-    background-color:rgb(255, 0, 0);
+    background-color:rgba(0, 0, 0, 0.938);
     cursor: pointer; 
 }
 .reg button a{
@@ -720,7 +720,7 @@ color: grey;
           /*Accordion*/
 #fish{
     display:flex;
-    background-color:rgb(255, 0, 0);
+    background-color:rgba(0, 0, 0, 0.938);
     width:330px;
     height:5vh;
     justify-content:space-between;
