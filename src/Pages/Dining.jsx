@@ -1,12 +1,12 @@
 import Header from "../Component/Header"
 import Footer from "../Component/Footer"
 import { Link } from "react-router-dom"
-import fik from "../../src/Images/fik.webp"
+import kim from "../../src/Images/kim.webp"
 import wear from "../../src/Images/wear.webp"
 import wed from "../../src/Images/wed.webp"
 import vere from "../../src/Images/vere.webp"
 import vin from "../../src/Images/vin.webp"
-import tin from "../../src/Images/tin.webp"
+import ike from "../../src/Images/ike.webp"
 import fool from "../../src/Images/fool.webp"
 import spen from "../../src/Images/spen.webp"
 import { WhatsappLogo } from "@phosphor-icons/react"
@@ -20,7 +20,7 @@ const Dining=()=>{
 <h3 id="dim">Dining Room Sets</h3>
 <section id="arrival" className="ma-gin" >
  <div className="div">
-     <img src={fik} />
+     <img src={kim} />
      <h5>Royal Mob Dining Set</h5>
      <div className="pet">
  <Link to="https://wa.link/ju3r9u"><WhatsappLogo size={20} /></Link>
@@ -74,7 +74,7 @@ const Dining=()=>{
      <h6>$100</h6>
  </div>
  <div className="div">
-     <img src={tin} />
+     <img src={ike} />
      <h5>Saltanat Ryal Dining Set</h5>
      <div className="pet">
  <Link to="https://wa.link/ju3r9u"><WhatsappLogo size={20} /></Link>
